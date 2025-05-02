@@ -130,4 +130,19 @@
   <data name="users.username" xml:space="preserve">
     <value>名称</value>
   </data>
+  <data name="date_added" xml:space="preserve">
+    <value>添加日期</value>
+  </data>
+  <data name="date_ranked" xml:space="preserve">
+    <value>上架日期</value>
+  </data>
+  <data name="date_submitted" xml:space="preserve">
+    <value>提交日期</value>
+  </data>
+  <data name="last_played" xml:space="preserve">
+    <value>最后游玩</value>
+  </data>
+  <data name="artist_tracks.source" xml:space="preserve">
+    <value>来源</value>
+  </data>
 </root>
