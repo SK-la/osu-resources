@@ -790,4 +790,7 @@
   <data name="variant.mania.all" xml:space="preserve">
     <value>All</value>
   </data>
+  <data name="listing.search.sorting.author" xml:space="preserve">
+    <value>Author</value>
+  </data>
 </root>

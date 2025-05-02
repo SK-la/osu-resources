@@ -130,4 +130,19 @@
   <data name="users.username" xml:space="preserve">
     <value>Name</value>
   </data>
+  <data name="date_submitted" xml:space="preserve">
+    <value>DateSubmitted</value>
+  </data>
+  <data name="date_added" xml:space="preserve">
+    <value>DateAdded</value>
+  </data>
+  <data name="date_ranked" xml:space="preserve">
+    <value>DateRanked</value>
+  </data>
+  <data name="last_played" xml:space="preserve">
+    <value>LastPlayed</value>
+  </data>
+  <data name="artist_tracks.source" xml:space="preserve">
+    <value>Source</value>
+  </data>
 </root>

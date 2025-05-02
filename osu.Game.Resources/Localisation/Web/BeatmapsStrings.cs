@@ -815,6 +815,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ListingSearchSortingArtist => new TranslatableString(getKey(@"listing.search.sorting.artist"), @"Artist");
 
         /// <summary>
+        /// "Author"
+        /// </summary>
+        public static LocalisableString ListingSearchSortingAuthor => new TranslatableString(getKey(@"listing.search.sorting.author"), @"Author");
+
+        /// <summary>
         /// "Difficulty"
         /// </summary>
         public static LocalisableString ListingSearchSortingDifficulty => new TranslatableString(getKey(@"listing.search.sorting.difficulty"), @"Difficulty");

@@ -55,6 +55,31 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString Username => new TranslatableString(getKey(@"username"), @"Username");
 
         /// <summary>
+        /// "Username"
+        /// </summary>
+        public static LocalisableString DateSubmitted => new TranslatableString(getKey(@"date_submitted"), @"DateSubmitted");
+
+        /// <summary>
+        /// "Username"
+        /// </summary>
+        public static LocalisableString DateAdded => new TranslatableString(getKey(@"date_added"), @"DateAdded");
+
+        /// <summary>
+        /// "Username"
+        /// </summary>
+        public static LocalisableString DateRanked => new TranslatableString(getKey(@"date_ranked"), @"DateRanked");
+
+        /// <summary>
+        /// "Username"
+        /// </summary>
+        public static LocalisableString LastPlayed => new TranslatableString(getKey(@"last_played"), @"LastPlayed");
+
+        /// <summary>
+        /// "Source"
+        /// </summary>
+        public static LocalisableString ArtistTracksSource => new TranslatableString(getKey(@"artist_tracks.source"), @"Source");
+
+        /// <summary>
         /// "Album"
         /// </summary>
         public static LocalisableString ArtistTracksAlbum => new TranslatableString(getKey(@"artist_tracks.album"), @"Album");
