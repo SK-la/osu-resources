@@ -92,7 +92,7 @@
     <value>Anda telah menyerahkan undian untuk penyertaan ini.</value>
   </data>
   <data name="judge_results._" xml:space="preserve">
-    <value>Keputusan pengadilan</value>
+    <value>Hasil pengadilan</value>
   </data>
   <data name="judge_results.creator" xml:space="preserve">
     <value>pencipta</value>
@@ -100,8 +100,14 @@
   <data name="judge_results.score" xml:space="preserve">
     <value>Markah</value>
   </data>
+  <data name="judge_results.score_std" xml:space="preserve">
+    <value>Markah Terpiawai</value>
+  </data>
   <data name="judge_results.total_score" xml:space="preserve">
     <value>jumlah markah</value>
+  </data>
+  <data name="judge_results.total_score_std" xml:space="preserve">
+    <value>jumlah markah terpiawai</value>
   </data>
   <data name="voting.judge_link" xml:space="preserve">
     <value>Anda pengadil peraduan ini. Adili penyertaan di sini!</value>
@@ -181,6 +187,9 @@
   <data name="vote.points" xml:space="preserve">
     <value>{0} mata</value>
   </data>
+  <data name="vote.points_float" xml:space="preserve">
+    <value>{0} mata</value>
+  </data>
   <data name="dates.ended" xml:space="preserve">
     <value>Tamat {0}</value>
   </data>
@@ -200,6 +209,6 @@
     <value>Pengundian Bermula</value>
   </data>
   <data name="states.results" xml:space="preserve">
-    <value>Keputusan Diumumkan</value>
+    <value>Hasil Diumumkan</value>
   </data>
 </root>

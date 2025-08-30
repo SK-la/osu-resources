@@ -163,14 +163,14 @@
   <data name="main.home_controller.testflight" xml:space="preserve">
     <value>testflight</value>
   </data>
+  <data name="main.legacy_matches_controller._" xml:space="preserve">
+    <value>matchs</value>
+  </data>
   <data name="main.legal_controller._" xml:space="preserve">
     <value>information</value>
   </data>
   <data name="main.livestreams_controller._" xml:space="preserve">
     <value>streams en direct</value>
-  </data>
-  <data name="main.matches_controller._" xml:space="preserve">
-    <value>matchs</value>
   </data>
   <data name="main.news_controller._" xml:space="preserve">
     <value>news</value>
@@ -222,6 +222,9 @@
   </data>
   <data name="main.wiki_controller._" xml:space="preserve">
     <value>wiki</value>
+  </data>
+  <data name="multiplayer.rooms_controller.events" xml:space="preserve">
+    <value>historique de la salle</value>
   </data>
   <data name="passport.authorization_controller._" xml:space="preserve">
     <value>autoriser l'application</value>

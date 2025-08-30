@@ -154,6 +154,9 @@
   <data name="show.admin.full_size_cover" xml:space="preserve">
     <value>Afficher la taille réelle de l'image de couverture</value>
   </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Voir la page admin</value>
+  </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>Cette beatmap a été supprimée.</value>
   </data>
@@ -256,6 +259,9 @@
   <data name="show.info.language" xml:space="preserve">
     <value>Langue</value>
   </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>Tags du mappeur</value>
+  </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Les données sont encore en cours de calcul...</value>
   </data>
@@ -279,6 +285,9 @@
   </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Taux de réussite</value>
+  </data>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>Tags des joueurs</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Cette beatmap contient une vidéo</value>
@@ -398,7 +407,7 @@
     <value>Précision</value>
   </data>
   <data name="show.stats.ar" xml:space="preserve">
-    <value>Taux d'approche</value>
+    <value>Vitesse d'approche</value>
   </data>
   <data name="show.stats.stars" xml:space="preserve">
     <value>Difficulté en étoiles</value>

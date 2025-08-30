@@ -73,6 +73,12 @@
   <data name="daily_challenge.top_50p" xml:space="preserve">
     <value>Markah 50% Teratas</value>
   </data>
+  <data name="daily_challenge.unavailable.future" xml:space="preserve">
+    <value>Belum ada cabaran harian pada tarikh ditentukan!</value>
+  </data>
+  <data name="daily_challenge.unavailable.past" xml:space="preserve">
+    <value>Tiada cabaran harian pada tarikh ditentukan!</value>
+  </data>
   <data name="filter.title" xml:space="preserve">
     <value>Paparkan</value>
   </data>
@@ -89,7 +95,7 @@
     <value>Digunakan</value>
   </data>
   <data name="performance.insufficient_history" xml:space="preserve">
-    <value>Pengguna ini mempunyai sejarah kedudukan terkini kurang daripada 30 hari.</value>
+    <value>Sejarah pangkat terkini pengguna ini kurang daripada 30 hari.</value>
   </data>
   <data name="type.charts" xml:space="preserve">
     <value>sorotan (lama)</value>
@@ -99,6 +105,9 @@
   </data>
   <data name="type.daily_challenge" xml:space="preserve">
     <value>cabaran harian</value>
+  </data>
+  <data name="type.global" xml:space="preserve">
+    <value>sejagat</value>
   </data>
   <data name="type.kudosu" xml:space="preserve">
     <value>kudosu</value>
@@ -164,7 +173,7 @@
     <value>Jumlah Markah</value>
   </data>
   <data name="stat.ranked_score" xml:space="preserve">
-    <value>Markah Berkedudukan</value>
+    <value>Markah Berpangkat</value>
   </data>
   <data name="stat.average_score" xml:space="preserve">
     <value>Markah Purata</value>

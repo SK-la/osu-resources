@@ -161,6 +161,12 @@
     <value>Generale</value>
   </data>
   <data name="copy_link" xml:space="preserve">
-    <value>Copia сollegamento</value>
+    <value>Copia collegamento</value>
+  </data>
+  <data name="manage" xml:space="preserve">
+    <value>Gestisci...</value>
+  </data>
+  <data name="details" xml:space="preserve">
+    <value>Dettagli...</value>
   </data>
 </root>

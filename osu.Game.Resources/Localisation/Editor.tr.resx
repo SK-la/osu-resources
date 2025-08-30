@@ -98,7 +98,7 @@
     <value>Harici olarak düzenle</value>
   </data>
   <data name="submit_beatmap" xml:space="preserve">
-    <value>Beatmapi gönder</value>
+    <value>Beatmap'i gönder</value>
   </data>
   <data name="setup_screen" xml:space="preserve">
     <value>kurulum</value>
@@ -144,6 +144,9 @@
   </data>
   <data name="timeline_show_timing_changes" xml:space="preserve">
     <value>Zamanlama değişikliklerini göster</value>
+  </data>
+  <data name="Finish editing and import changes" xml:space="preserve">
+    <value>Düzenlemeyi bitir ve değişiklikleri dışa aktar</value>
   </data>
   <data name="timeline_show_breaks" xml:space="preserve">
     <value>Molaları göster</value>

@@ -163,14 +163,14 @@
   <data name="main.home_controller.testflight" xml:space="preserve">
     <value>testflight</value>
   </data>
+  <data name="main.legacy_matches_controller._" xml:space="preserve">
+    <value>kecocokan</value>
+  </data>
   <data name="main.legal_controller._" xml:space="preserve">
     <value>informasi</value>
   </data>
   <data name="main.livestreams_controller._" xml:space="preserve">
     <value>siaran langsung</value>
-  </data>
-  <data name="main.matches_controller._" xml:space="preserve">
-    <value>pertandingan</value>
   </data>
   <data name="main.news_controller._" xml:space="preserve">
     <value>berita</value>
@@ -222,6 +222,9 @@
   </data>
   <data name="main.wiki_controller._" xml:space="preserve">
     <value>wiki</value>
+  </data>
+  <data name="multiplayer.rooms_controller.events" xml:space="preserve">
+    <value>riwayat ruangan</value>
   </data>
   <data name="passport.authorization_controller._" xml:space="preserve">
     <value>otorisir aplikasi</value>

@@ -30,6 +30,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ApplicationsStoreOk => new TranslatableString(getKey(@"applications.store.ok"), @"Requested to join team.");
 
         /// <summary>
+        /// "{0} member|{0} members"
+        /// </summary>
+        public static LocalisableString CardMembers(LocalisableString countDelimited) => new TranslatableString(getKey(@"card.members"), @"{0} member|{0} members", countDelimited);
+
+        /// <summary>
         /// "Create Team"
         /// </summary>
         public static LocalisableString CreateSubmit => new TranslatableString(getKey(@"create.submit"), @"Create Team");
@@ -320,14 +325,19 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowSectionsMembers => new TranslatableString(getKey(@"show.sections.members"), @"Members");
 
         /// <summary>
-        /// "Rank"
+        /// "{0} slot available|{0} slots available"
         /// </summary>
-        public static LocalisableString ShowStatisticsRank => new TranslatableString(getKey(@"show.statistics.rank"), @"Rank");
+        public static LocalisableString ShowStatisticsEmptySlots(LocalisableString countDelimited) => new TranslatableString(getKey(@"show.statistics.empty_slots"), @"{0} slot available|{0} slots available", countDelimited);
 
         /// <summary>
         /// "Team Leader"
         /// </summary>
         public static LocalisableString ShowStatisticsLeader => new TranslatableString(getKey(@"show.statistics.leader"), @"Team Leader");
+
+        /// <summary>
+        /// "Rank"
+        /// </summary>
+        public static LocalisableString ShowStatisticsRank => new TranslatableString(getKey(@"show.statistics.rank"), @"Rank");
 
         /// <summary>
         /// "Team created."
