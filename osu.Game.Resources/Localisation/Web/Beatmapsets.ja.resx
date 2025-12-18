@@ -154,6 +154,9 @@
   <data name="show.admin.full_size_cover" xml:space="preserve">
     <value>フルサイズのカバー画像を表示</value>
   </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>管理ページを表示</value>
+  </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>このビートマップは削除されました。</value>
   </data>
@@ -256,6 +259,9 @@
   <data name="show.info.language" xml:space="preserve">
     <value>言語</value>
   </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>マッパータグ</value>
+  </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>データはまだ計算中です・・・</value>
   </data>
@@ -279,6 +285,9 @@
   </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>クリア率</value>
+  </data>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>ユーザータグ</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>このビートマップには動画が含まれています</value>
@@ -429,6 +438,12 @@
   </data>
   <data name="show.stats.playcount" xml:space="preserve">
     <value>プレイ数</value>
+  </data>
+  <data name="show.stats.favourites" xml:space="preserve">
+    <value>お気に入り</value>
+  </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>お気に入りはまだありません</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Ranked</value>

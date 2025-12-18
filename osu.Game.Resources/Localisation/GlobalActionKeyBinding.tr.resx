@@ -95,16 +95,16 @@
     <value>Ekran görüntüsü al</value>
   </data>
   <data name="toggle_gameplay_mouse_buttons" xml:space="preserve">
-    <value>Oyun-içi fare butonlarını aç/kapa</value>
+    <value>Oyun içi fare butonlarını aç/kapa</value>
   </data>
   <data name="back" xml:space="preserve">
     <value>Geri</value>
   </data>
   <data name="increase_scroll_speed" xml:space="preserve">
-    <value>Kayma hızını arttır</value>
+    <value>Kaydırma hızını arttır</value>
   </data>
   <data name="decrease_scroll_speed" xml:space="preserve">
-    <value>Kayma hızını azalt</value>
+    <value>Kaydırma hızını azalt</value>
   </data>
   <data name="select" xml:space="preserve">
     <value>Seç</value>
@@ -130,14 +130,23 @@
   <data name="select_next" xml:space="preserve">
     <value>Sonraki seçim</value>
   </data>
-  <data name="select_previous_group" xml:space="preserve">
-    <value>Önceki grubu seç</value>
+  <data name="activate_previous_set" xml:space="preserve">
+    <value>Önceki seti aktifleştir</value>
   </data>
-  <data name="select_next_group" xml:space="preserve">
-    <value>Sonraki grubu seç</value>
+  <data name="activate_next_set" xml:space="preserve">
+    <value>Sonraki seti aktifleştir</value>
+  </data>
+  <data name="expand_previous_group" xml:space="preserve">
+    <value>Önceki gruba genişlet</value>
+  </data>
+  <data name="expand_next_group" xml:space="preserve">
+    <value>Sonraki gruba genişlet</value>
+  </data>
+  <data name="toggle_current_group" xml:space="preserve">
+    <value>Seçili grubun genişletilmesini aç/kapat</value>
   </data>
   <data name="home" xml:space="preserve">
-    <value>Anasayfa</value>
+    <value>Ana Sayfa</value>
   </data>
   <data name="toggle_notifications" xml:space="preserve">
     <value>Bildirimleri aç/kapa</value>
@@ -185,7 +194,7 @@
     <value>Tekrarı duraklat / sürdür</value>
   </data>
   <data name="toggle_in_game_interface" xml:space="preserve">
-    <value>Oyun-içi arayüzü aç/kapa</value>
+    <value>Oyun içi arayüzü aç/kapa</value>
   </data>
   <data name="toggle_in_game_leaderboard" xml:space="preserve">
     <value>Oyun içi sıralama tablosunu aç/kapat</value>

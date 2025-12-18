@@ -103,6 +103,9 @@
   <data name="right_mouse_scroll" xml:space="preserve">
     <value>Seret kanan tetikus untuk menatal mutlak</value>
   </data>
+  <data name="show_converts" xml:space="preserve">
+    <value>Tunjuk penukaran</value>
+  </data>
   <data name="show_converted_beatmaps" xml:space="preserve">
     <value>Tunjuk peta rentak yang ditukar</value>
   </data>
@@ -147,5 +150,8 @@
   </data>
   <data name="true_random" xml:space="preserve">
     <value>Rawak Sebenar</value>
+  </data>
+  <data name="selected_mods" xml:space="preserve">
+    <value>Penyesuai Pilihan</value>
   </data>
 </root>

@@ -68,18 +68,18 @@
     <value>Sessió iniciada</value>
   </data>
   <data name="sign_out" xml:space="preserve">
-    <value>Tancar sessió</value>
+    <value>Tanca la sessió</value>
   </data>
   <data name="account" xml:space="preserve">
     <value>Compte</value>
   </data>
   <data name="remember_username" xml:space="preserve">
-    <value>Recordar nom d'usuari</value>
+    <value>Recorda el nom d'usuari</value>
   </data>
   <data name="stay_signed_in" xml:space="preserve">
     <value>Mantenir la sessió iniciada</value>
   </data>
   <data name="register" xml:space="preserve">
-    <value>Registrar</value>
+    <value>Registra</value>
   </data>
 </root>

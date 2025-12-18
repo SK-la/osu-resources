@@ -995,6 +995,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowExtraPostsShowMore => new TranslatableString(getKey(@"show.extra.posts.show_more"), @"see more posts");
 
         /// <summary>
+        /// "Quick Play Matches"
+        /// </summary>
+        public static LocalisableString ShowExtraQuickplayTitle => new TranslatableString(getKey(@"show.extra.quickplay.title"), @"Quick Play Matches");
+
+        /// <summary>
         /// "Recent"
         /// </summary>
         public static LocalisableString ShowExtraRecentActivityTitle => new TranslatableString(getKey(@"show.extra.recent_activity.title"), @"Recent");
@@ -1188,6 +1193,16 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Website"
         /// </summary>
         public static LocalisableString ShowInfoWebsite => new TranslatableString(getKey(@"show.info.website"), @"Website");
+
+        /// <summary>
+        /// "Details coming soon!"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingDetailsSoon => new TranslatableString(getKey(@"show.matchmaking.details_soon"), @"Details coming soon!");
+
+        /// <summary>
+        /// "Quick Play"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingTitle => new TranslatableString(getKey(@"show.matchmaking.title"), @"Quick Play");
 
         /// <summary>
         /// "They may have changed their username."

@@ -73,6 +73,12 @@
   <data name="daily_challenge.top_50p" xml:space="preserve">
     <value>上位50%スコア</value>
   </data>
+  <data name="daily_challenge.unavailable.future" xml:space="preserve">
+    <value>指定された日付のデイリーチャレンジはまだありません！</value>
+  </data>
+  <data name="daily_challenge.unavailable.past" xml:space="preserve">
+    <value>指定された日付のデイリーチャレンジはありません！</value>
+  </data>
   <data name="filter.title" xml:space="preserve">
     <value>表示</value>
   </data>
@@ -91,8 +97,8 @@
   <data name="performance.insufficient_history" xml:space="preserve">
     <value>このユーザーの最近のランキング履歴は30日未満です。</value>
   </data>
-  <data name="type.charts" xml:space="preserve">
-    <value>スポットライト</value>
+  <data name="top_plays.empty" xml:space="preserve">
+    <value>データを計算中・・・</value>
   </data>
   <data name="type.country" xml:space="preserve">
     <value>国別</value>
@@ -100,17 +106,17 @@
   <data name="type.daily_challenge" xml:space="preserve">
     <value>デイリーチャレンジ</value>
   </data>
+  <data name="type.global" xml:space="preserve">
+    <value>グローバル</value>
+  </data>
   <data name="type.kudosu" xml:space="preserve">
     <value>kudosu</value>
   </data>
-  <data name="type.multiplayer" xml:space="preserve">
-    <value>マルチプレイ</value>
-  </data>
-  <data name="type.seasons" xml:space="preserve">
-    <value>シーズン</value>
-  </data>
   <data name="type.team" xml:space="preserve">
     <value>チーム</value>
+  </data>
+  <data name="type.top_plays" xml:space="preserve">
+    <value>トッププレイ</value>
   </data>
   <data name="seasons.empty" xml:space="preserve">
     <value>今シーズンはまだルームがありません。</value>

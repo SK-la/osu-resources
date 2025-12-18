@@ -760,7 +760,4 @@
   <data name="variant.mania.all" xml:space="preserve">
     <value>全部</value>
   </data>
-  <data name="listing.search.sorting.author" xml:space="preserve">
-    <value>谱师</value>
-  </data>
 </root>

@@ -235,6 +235,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(владельцы osu!supporter получат доступ позже)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Активные</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Завершённые</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Карты пользователя: {0}</value>
   </data>
@@ -464,7 +470,7 @@
     <value>основной режим игры</value>
   </data>
   <data name="show.edit.default_playmode.set" xml:space="preserve">
-    <value>установить {0} как режим игры по умолчанию</value>
+    <value>установить {0} основным режимом игры</value>
   </data>
   <data name="show.edit.hue.reset_no_supporter" xml:space="preserve">
     <value>Вы уверены, что хотите сбросить цвет профиля к стандартному? Изменять цвет можно только с тегом osu!supporter.</value>
@@ -643,6 +649,9 @@
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>показать больше постов</value>
   </data>
+  <data name="show.extra.quickplay.title" xml:space="preserve">
+    <value>Матчи быстрой игры</value>
+  </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Последняя активность</value>
   </data>
@@ -782,10 +791,10 @@
     <value>Напишите о себе</value>
   </data>
   <data name="show.page.restriction_info._" xml:space="preserve">
-    <value>Для использования этой функции нужен {0}.</value>
+    <value>Разблокировать эту функцию можно с помощью {0}.</value>
   </data>
   <data name="show.page.restriction_info.link" xml:space="preserve">
-    <value>тег osu!supporter</value>
+    <value>тега osu!supporter</value>
   </data>
   <data name="show.post_count._" xml:space="preserve">
     <value>Всего {0} на форуме,</value>

@@ -154,6 +154,9 @@
   <data name="show.admin.full_size_cover" xml:space="preserve">
     <value>檢視完整封面圖片</value>
   </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>檢視管理頁面</value>
+  </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>此圖譜已被刪除。</value>
   </data>
@@ -256,6 +259,9 @@
   <data name="show.info.language" xml:space="preserve">
     <value>語言</value>
   </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>譜師標籤</value>
+  </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>資料還在計算中...</value>
   </data>
@@ -279,6 +285,9 @@
   </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>成功率</value>
+  </data>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>玩家標籤</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>此圖譜包含背景影片</value>

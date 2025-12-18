@@ -649,6 +649,9 @@
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>see more posts</value>
   </data>
+  <data name="show.extra.quickplay.title" xml:space="preserve">
+    <value>Quick Play Matches</value>
+  </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Recent</value>
   </data>
@@ -765,6 +768,12 @@
   </data>
   <data name="show.info.website" xml:space="preserve">
     <value>Website</value>
+  </data>
+  <data name="show.matchmaking.details_soon" xml:space="preserve">
+    <value>Details coming soon!</value>
+  </data>
+  <data name="show.matchmaking.title" xml:space="preserve">
+    <value>Quick Play</value>
   </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>They may have changed their username.</value>

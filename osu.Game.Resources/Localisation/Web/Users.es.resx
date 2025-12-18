@@ -235,6 +235,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(los osu!supporters tendrán acceso pronto)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Activas</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Finalizadas</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Mapas: {0}</value>
   </data>
@@ -642,6 +648,9 @@
   </data>
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>ver más publicaciones</value>
+  </data>
+  <data name="show.extra.quickplay.title" xml:space="preserve">
+    <value>Partidas rápidas</value>
   </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Reciente</value>

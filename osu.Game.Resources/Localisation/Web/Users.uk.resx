@@ -235,6 +235,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(гравці з osu!supporter отримають доступ раніше)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Активне</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Завершене</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Мап: {0}</value>
   </data>
@@ -292,8 +298,20 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>Скасувати</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>Будь ласка, повідомте про порушення авторських прав через DMCA на адресу {0}, згідно з {1}.</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>політикою авторського права osu!</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>Це стосується випадків, коли аудіодоріжки, візуальний контент або контент рівня мапи використовуються без належного дозволу.</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Нечесна гра / чітерство</value>
+  </data>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>Порушення авторських прав</value>
   </data>
   <data name="report.options.inappropriate_chat" xml:space="preserve">
     <value>Неприйнятна поведінка в чаті</value>
@@ -631,6 +649,9 @@
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>бачити більше постiв</value>
   </data>
+  <data name="show.extra.quickplay.title" xml:space="preserve">
+    <value>Матчі Швидкої Гри</value>
+  </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Недавня активність</value>
   </data>
@@ -806,7 +827,7 @@
     <value>Точність</value>
   </data>
   <data name="show.stats.hits_per_play" xml:space="preserve">
-    <value>Влучань За Гру</value>
+    <value>Влучань за гру</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>Рівень {0}</value>
@@ -830,7 +851,7 @@
     <value>Рейтингові очки</value>
   </data>
   <data name="show.stats.replays_watched_by_others" xml:space="preserve">
-    <value>Переглянутих повторів іншими</value>
+    <value>Перегляди повторів іншими</value>
   </data>
   <data name="show.stats.score_ranks" xml:space="preserve">
     <value>Рейтинг по очках</value>

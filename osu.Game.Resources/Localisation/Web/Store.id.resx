@@ -335,10 +335,10 @@
     <value>Sayangnya, stok barang ini sedang tidak tersedia. Gunakan menu dropdown untuk memilih varian lain atau periksa kembali nanti!</value>
   </data>
   <data name="product.add_to_cart" xml:space="preserve">
-    <value>Tambahkan ke Keranjang</value>
+    <value>Tambah ke Keranjang</value>
   </data>
   <data name="product.notify" xml:space="preserve">
-    <value>Beri tahu saya ketika telah tersedia!</value>
+    <value>Beritahukan saya pada saat tersedia!</value>
   </data>
   <data name="product.out_of_stock" xml:space="preserve">
     <value>Stok habis</value>

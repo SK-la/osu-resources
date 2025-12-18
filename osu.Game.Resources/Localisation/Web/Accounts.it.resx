@@ -74,7 +74,7 @@
     <value>Assicurati che la tua immagine di profilo aderisca alle {0}.&lt;br/&gt;Questo significa che dev'essere &lt;strong&gt;adatta a tutte le età&lt;/strong&gt; (quindi niente nudità, profanità o contenuti provocanti).</value>
   </data>
   <data name="edit.avatar.rules_link" xml:space="preserve">
-    <value>regole della comunità</value>
+    <value>considerazioni sui contenuti visivi</value>
   </data>
   <data name="edit.email.new" xml:space="preserve">
     <value>nuova email</value>
@@ -182,13 +182,16 @@
     <value>opzioni di notifica</value>
   </data>
   <data name="notifications.options.beatmap_owner_change" xml:space="preserve">
-    <value>difficoltà guest</value>
+    <value>difficoltà ospitata</value>
   </data>
   <data name="notifications.options.beatmapset:modding" xml:space="preserve">
     <value>modding delle beatmap</value>
   </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>messaggi privati</value>
+  </data>
+  <data name="notifications.options.channel_team" xml:space="preserve">
+    <value>messaggi chat della squadra</value>
   </data>
   <data name="notifications.options.comment_new" xml:space="preserve">
     <value>nuovi commenti</value>
@@ -256,6 +259,9 @@
   <data name="privacy.hide_online" xml:space="preserve">
     <value>nascondi il tuo stato online</value>
   </data>
+  <data name="privacy.hide_online_info" xml:space="preserve">
+    <value>su osu!lazer, funziona come l'opzione "Mostrati offline"</value>
+  </data>
   <data name="privacy.title" xml:space="preserve">
     <value>Privacy</value>
   </data>
@@ -282,6 +288,27 @@
   </data>
   <data name="update_password.update" xml:space="preserve">
     <value>aggiorna</value>
+  </data>
+  <data name="user_totp.title" xml:space="preserve">
+    <value>Autenticatore</value>
+  </data>
+  <data name="user_totp.usage_note" xml:space="preserve">
+    <value>Utilizza un'app di autenticazione invece dell'email per verificare l'accesso. La verifica con email rimarrà comunque un'opzione di riserva.</value>
+  </data>
+  <data name="user_totp.button.remove" xml:space="preserve">
+    <value>Rimuovi</value>
+  </data>
+  <data name="user_totp.button.setup" xml:space="preserve">
+    <value>Inserisci app di autenticazione</value>
+  </data>
+  <data name="user_totp.status.label" xml:space="preserve">
+    <value>stato</value>
+  </data>
+  <data name="user_totp.status.not_set" xml:space="preserve">
+    <value>Non configurato</value>
+  </data>
+  <data name="user_totp.status.set" xml:space="preserve">
+    <value>Configurato</value>
   </data>
   <data name="verification_completed.text" xml:space="preserve">
     <value>Ora puoi chiudere questa scheda/finestra</value>

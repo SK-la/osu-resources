@@ -74,10 +74,10 @@
     <value>Markah 50% Teratas</value>
   </data>
   <data name="daily_challenge.unavailable.future" xml:space="preserve">
-    <value>Belum ada cabaran harian pada tarikh ditentukan!</value>
+    <value>Belum ada cabaran harian pada tarikh yang ditentukan!</value>
   </data>
   <data name="daily_challenge.unavailable.past" xml:space="preserve">
-    <value>Tiada cabaran harian pada tarikh ditentukan!</value>
+    <value>Tiada cabaran harian pada tarikh yang ditentukan!</value>
   </data>
   <data name="filter.title" xml:space="preserve">
     <value>Paparkan</value>
@@ -86,7 +86,7 @@
     <value>Pelbagai</value>
   </data>
   <data name="kudosu.total" xml:space="preserve">
-    <value>Diterima</value>
+    <value>Diperoleh</value>
   </data>
   <data name="kudosu.available" xml:space="preserve">
     <value>Tersedia</value>
@@ -96,9 +96,6 @@
   </data>
   <data name="performance.insufficient_history" xml:space="preserve">
     <value>Sejarah pangkat terkini pengguna ini kurang daripada 30 hari.</value>
-  </data>
-  <data name="type.charts" xml:space="preserve">
-    <value>sorotan (lama)</value>
   </data>
   <data name="type.country" xml:space="preserve">
     <value>negara</value>
@@ -111,12 +108,6 @@
   </data>
   <data name="type.kudosu" xml:space="preserve">
     <value>kudosu</value>
-  </data>
-  <data name="type.multiplayer" xml:space="preserve">
-    <value>pemain ramai</value>
-  </data>
-  <data name="type.seasons" xml:space="preserve">
-    <value>musim</value>
   </data>
   <data name="type.team" xml:space="preserve">
     <value>pasukan</value>

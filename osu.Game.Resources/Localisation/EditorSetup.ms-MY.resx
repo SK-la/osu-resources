@@ -68,7 +68,7 @@
     <value>Warna</value>
   </data>
   <data name="hit_circle_slider_combos" xml:space="preserve">
-    <value>Kombo Bulatan Pukulan / Gelangsar</value>
+    <value>Gabungan Bulatan Pukulan / Gelangsar</value>
   </data>
   <data name="design_header" xml:space="preserve">
     <value>Reka Bentuk</value>
@@ -92,7 +92,7 @@
     <value>Sokongan layar lebar</value>
   </data>
   <data name="widescreen_support_description" xml:space="preserve">
-    <value>Membenarkan papan cerita untuk menggunakan ruang layar penuh berbanding terbatas dalam kawasan 4:3.</value>
+    <value>Benarkan papan cerita untuk menggunakan ruang layar penuh berbanding dibatasi kawasan 4:3.</value>
   </data>
   <data name="epilepsy_warning" xml:space="preserve">
     <value>Amaran epilepsi</value>
@@ -134,7 +134,7 @@
     <value>Halaju Pangkal</value>
   </data>
   <data name="base_velocity_description" xml:space="preserve">
-    <value>Halaju pangkal peta rentak yang mempengaruhi hal seperti halaju gelangsar dan kelajuan tatal dalam sebahagian ruleset.</value>
+    <value>Halaju pangkal peta rentak yang mempengaruhi hal seperti halaju gelangsar dan kelajuan tatal dalam sebahagian cara main.</value>
   </data>
   <data name="metadata_header" xml:space="preserve">
     <value>Metadata</value>
@@ -176,10 +176,10 @@
     <value>Hanya terap pada kesukaran ini</value>
   </data>
   <data name="ruleset" xml:space="preserve">
-    <value>Ruleset ({0})</value>
+    <value>Cara main ({0})</value>
   </data>
   <data name="combo_colour_prefix" xml:space="preserve">
-    <value>Kombo</value>
+    <value>Gabungan</value>
   </data>
   <data name="artist" xml:space="preserve">
     <value>Artis</value>

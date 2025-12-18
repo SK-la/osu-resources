@@ -235,6 +235,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>（在不久后将对 osu! 支持者开放）</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>正在进行</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>已结束</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>谱面：{0}</value>
   </data>
@@ -642,6 +648,9 @@
   </data>
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>查看更多回复</value>
+  </data>
+  <data name="show.extra.quickplay.title" xml:space="preserve">
+    <value>匹配模式历史</value>
   </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>最近活动</value>

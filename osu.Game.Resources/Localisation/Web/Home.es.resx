@@ -193,23 +193,11 @@
   <data name="search.wiki_page.title" xml:space="preserve">
     <value>Wiki</value>
   </data>
-  <data name="download.action" xml:space="preserve">
-    <value>Descargar osu!</value>
-  </data>
-  <data name="download.action_lazer" xml:space="preserve">
-    <value>Descargar osu!(lazer)</value>
-  </data>
-  <data name="download.action_lazer_description" xml:space="preserve">
-    <value>la próxima gran actualización de osu!</value>
-  </data>
   <data name="download.action_lazer_info" xml:space="preserve">
     <value>revisa esta página para más información</value>
   </data>
-  <data name="download.action_lazer_title" xml:space="preserve">
-    <value>probar osu!(lazer)</value>
-  </data>
-  <data name="download.action_title" xml:space="preserve">
-    <value>descargar osu!</value>
+  <data name="download.download" xml:space="preserve">
+    <value>Descargar</value>
   </data>
   <data name="download.for_os" xml:space="preserve">
     <value>para {0}</value>
@@ -232,8 +220,14 @@
   <data name="download.quick_start_guide" xml:space="preserve">
     <value>guía de inicio rápido</value>
   </data>
-  <data name="download.tagline" xml:space="preserve">
-    <value>¡vamos a&lt;br&gt;empezar!</value>
+  <data name="download.stable_text" xml:space="preserve">
+    <value>por si estás buscando el antiguo</value>
+  </data>
+  <data name="download.tagline_1" xml:space="preserve">
+    <value>¡Vamos a</value>
+  </data>
+  <data name="download.tagline_2" xml:space="preserve">
+    <value>empezar!</value>
   </data>
   <data name="download.video-guide" xml:space="preserve">
     <value>guía en vídeo</value>

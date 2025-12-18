@@ -134,7 +134,7 @@
     <value>confirmació de contrasenya</value>
   </data>
   <data name="create.form.submit" xml:space="preserve">
-    <value>crear compte</value>
+    <value>crea compte</value>
   </data>
   <data name="create.form.user_email" xml:space="preserve">
     <value>correu electrònic</value>
@@ -234,6 +234,12 @@
   </data>
   <data name="login.beta.small" xml:space="preserve">
     <value>(els osu!supporters tindran accés aviat)</value>
+  </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Actiu</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Finalitzat</value>
   </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Mapes: {0}</value>

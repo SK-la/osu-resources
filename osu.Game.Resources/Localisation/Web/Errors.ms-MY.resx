@@ -62,10 +62,13 @@
     <value>Pemuatan data gagal.</value>
   </data>
   <data name="missing_route" xml:space="preserve">
-    <value>URL tidak sah atau kaedah permintaan tidak betul.</value>
+    <value>URL tidak sah atau kaedah permintaan salah.</value>
   </data>
   <data name="no_restricted_access" xml:space="preserve">
     <value>Anda tidak boleh menjalankan tindakan ini ketika akaun anda dalam keadaan disekat.</value>
+  </data>
+  <data name="param_too_large" xml:space="preserve">
+    <value>Parameter {0} tidak boleh melebihi {1} butir</value>
   </data>
   <data name="supporter_only" xml:space="preserve">
     <value>Anda mesti menjadi osu!supporter untuk menggunakan ciri ini.</value>
@@ -92,7 +95,7 @@
     <value>Mod tidak sah ditentukan.</value>
   </data>
   <data name="beatmaps.standard_converts_only" xml:space="preserve">
-    <value>Tiada markah tersedia untuk mod yang diminta pada kesukaran peta rentak ini.</value>
+    <value>Tiada markah tersedia untuk mod pintaan pada kesukaran peta rentak ini.</value>
   </data>
   <data name="checkout.generic" xml:space="preserve">
     <value>Ralat berlaku ketika penyiapan semak keluar anda.</value>
@@ -101,7 +104,7 @@
     <value>ID markah tidak sah.</value>
   </data>
   <data name="search.default" xml:space="preserve">
-    <value>Hasil tidak ditemui. Cuba lagi nanti.</value>
+    <value>Tiada hasil ditemui. Cuba lagi nanti.</value>
   </data>
   <data name="search.invalid_cursor_exception" xml:space="preserve">
     <value>Parameter kursor tidak sah ditentukan.</value>

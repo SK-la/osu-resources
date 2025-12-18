@@ -235,6 +235,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(para pemilik osu!supporter akan segera masuk)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Aktif</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Berakhir</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Beatmap: {0}</value>
   </data>
@@ -506,7 +512,7 @@
     <value>Beatmap Graveyard</value>
   </data>
   <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
-    <value>Beatmap dengan Kontribusi Guest Difficulty</value>
+    <value>Beatmap dengan Kontribusi Tingkat Kesulitan</value>
   </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>Beatmap Loved</value>
@@ -642,6 +648,9 @@
   </data>
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>lihat lebih banyak postingan</value>
+  </data>
+  <data name="show.extra.quickplay.title" xml:space="preserve">
+    <value>Pertandingan Permainan Kilat</value>
   </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Aktivitas Terkini</value>

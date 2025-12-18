@@ -55,31 +55,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString Username => new TranslatableString(getKey(@"username"), @"Username");
 
         /// <summary>
-        /// "Username"
-        /// </summary>
-        public static LocalisableString DateSubmitted => new TranslatableString(getKey(@"date_submitted"), @"DateSubmitted");
-
-        /// <summary>
-        /// "Username"
-        /// </summary>
-        public static LocalisableString DateAdded => new TranslatableString(getKey(@"date_added"), @"DateAdded");
-
-        /// <summary>
-        /// "Username"
-        /// </summary>
-        public static LocalisableString DateRanked => new TranslatableString(getKey(@"date_ranked"), @"DateRanked");
-
-        /// <summary>
-        /// "Username"
-        /// </summary>
-        public static LocalisableString LastPlayed => new TranslatableString(getKey(@"last_played"), @"LastPlayed");
-
-        /// <summary>
-        /// "Source"
-        /// </summary>
-        public static LocalisableString ArtistTracksSource => new TranslatableString(getKey(@"artist_tracks.source"), @"Source");
-
-        /// <summary>
         /// "Album"
         /// </summary>
         public static LocalisableString ArtistTracksAlbum => new TranslatableString(getKey(@"artist_tracks.album"), @"Album");
@@ -143,6 +118,21 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Last reply"
         /// </summary>
         public static LocalisableString ForumTopicsNew => new TranslatableString(getKey(@"forum_topics.new"), @"Last reply");
+
+        /// <summary>
+        /// "Relevance"
+        /// </summary>
+        public static LocalisableString TeamsRelevance => new TranslatableString(getKey(@"teams.relevance"), @"Relevance");
+
+        /// <summary>
+        /// "Name"
+        /// </summary>
+        public static LocalisableString TeamsName => new TranslatableString(getKey(@"teams.name"), @"Name");
+
+        /// <summary>
+        /// "Short Name"
+        /// </summary>
+        public static LocalisableString TeamsShortName => new TranslatableString(getKey(@"teams.short-name"), @"Short Name");
 
         /// <summary>
         /// "Relevance"

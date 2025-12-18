@@ -154,6 +154,9 @@
   <data name="show.admin.full_size_cover" xml:space="preserve">
     <value>Перегляд зображення повнорозмірної обкладинки</value>
   </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Переглянути сторінку адміністратора</value>
+  </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>Ця мапа була видалена.</value>
   </data>
@@ -256,6 +259,9 @@
   <data name="show.info.language" xml:space="preserve">
     <value>Мова</value>
   </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>Теги мапера</value>
+  </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Дані все ще обробляються...</value>
   </data>
@@ -279,6 +285,9 @@
   </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Шанс успіху</value>
+  </data>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>Теги користувача</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Бітмапа містить відео</value>
@@ -429,6 +438,12 @@
   </data>
   <data name="show.stats.playcount" xml:space="preserve">
     <value>Кількість ігор</value>
+  </data>
+  <data name="show.stats.favourites" xml:space="preserve">
+    <value>Вподобані</value>
+  </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>Поки немає вподобаних</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Рейтингова</value>
