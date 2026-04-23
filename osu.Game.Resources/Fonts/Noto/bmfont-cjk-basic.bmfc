@@ -18,6 +18,9 @@ dontIncludeKerningPairs=0
 useHinting=1
 renderFromOutline=0
 useClearType=0
+autoFitNumPages=0
+autoFitFontSizeMin=0
+autoFitFontSizeMax=0
 
 # character alignment
 paddingDown=0
@@ -28,6 +31,7 @@ spacingHoriz=4
 spacingVert=4
 useFixedHeight=0
 forceZero=0
+widthPaddingFactor=0.00
 
 # output file
 outWidth=1024
@@ -51,5 +55,6 @@ outlineThickness=0
 
 # selected chars
 chars=12688-12730,12736-12771,12784-12830,12832-13054,13056-13099,13101-13311,19968-40912,65072-65103
+
 
 # imported icon images
