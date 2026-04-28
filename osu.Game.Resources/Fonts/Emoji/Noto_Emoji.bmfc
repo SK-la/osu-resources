@@ -1,0 +1,66 @@
+# AngelCode Bitmap Font Generator configuration file
+fileVersion=1
+
+# font settings
+fontName=Noto Emoji
+fontFile=
+charSet=0
+fontSize=100
+aa=4
+scaleH=100
+useSmoothing=1
+isBold=1
+isItalic=0
+useUnicode=1
+disableBoxChars=1
+outputInvalidCharGlyph=0
+dontIncludeKerningPairs=0
+useHinting=1
+renderFromOutline=0
+useClearType=0
+autoFitNumPages=0
+autoFitFontSizeMin=0
+autoFitFontSizeMax=0
+
+# character alignment
+paddingDown=0
+paddingUp=0
+paddingRight=0
+paddingLeft=0
+spacingHoriz=4
+spacingVert=4
+useFixedHeight=0
+forceZero=0
+widthPaddingFactor=0.00
+
+# output file
+outWidth=1024
+outHeight=1024
+outBitDepth=32
+fontDescFormat=2
+fourChnlPacked=0
+textureFormat=png
+textureCompression=0
+alphaChnl=0
+redChnl=4
+greenChnl=4
+blueChnl=4
+invA=0
+invR=0
+invG=0
+invB=0
+
+# outline
+outlineThickness=0
+
+# selected chars
+chars=8482,8505,8596-8601,8617-8618,9728-9732,9742,9745,9748-9749,9752,9757,9760,9762-9763,9766,9770,9774
+chars=9775,9784-9786,9792,9794,9800-9811,9823-9824,9827,9829-9830,9832,9851,9854-9855,9874-9879,9881,9883
+chars=9884,9888-9889,9895,9898-9899,9904-9905,9917-9918,9924-9925,9928,9934-9935,9937,9939-9940,9961-9962
+chars=9968-9973,9975-9978,9981,12951,12953,127344-127345,127358-127359,127374,127377-127386,127462-127487
+chars=127489-127490,127514,127535,127538-127546,127568-127569,127744-127777,127780-127891,127894-127895
+chars=127897-127899,127902-127984,127987-127989,127991-128253,128255,128512-128591,128640-128709,128715
+chars=128716-128722,128725-128728,128732-128741,128745,128747-128748,128752,128755-128764,129397,129514
+chars=129520,129656-129658,129761-129763
+
+# imported icon images
