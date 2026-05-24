@@ -9,7 +9,8 @@
   </PropertyGroup>
   <PropertyGroup Label="Nuget">
     <Title>osu!resources</Title>
-    <PackageId>ppy.osu.Game.Resources</PackageId>
+    <PackageId>la.osu.Game.Resources</PackageId>
+    <AssemblyName>osu.Game.Resources</AssemblyName>
     <Authors>ppy Pty Ltd</Authors>
     <PackageLicenseUrl>https://github.com/ppy/osu-resources/blob/master/LICENCE.md</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/ppy/osu-resources</PackageProjectUrl>
