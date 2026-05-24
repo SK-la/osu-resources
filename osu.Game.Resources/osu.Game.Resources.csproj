@@ -11,12 +11,12 @@
     <Title>osu!resources</Title>
     <PackageId>la.osu.Game.Resources</PackageId>
     <AssemblyName>osu.Game.Resources</AssemblyName>
-    <Authors>ppy Pty Ltd</Authors>
+    <Authors>ppy Pty Ltd, SK-la</Authors>
     <PackageLicenseUrl>https://github.com/ppy/osu-resources/blob/master/LICENCE.md</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/ppy/osu-resources</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ppy/osu-resources</RepositoryUrl>
-    <PackageReleaseNotes>Automated release.</PackageReleaseNotes>
-    <copyright>Copyright (c) 2019 ppy Pty Ltd</copyright>
+    <PackageReleaseNotes>Ez2Lazer redistribution (la.osu.Game.Resources). Modified by SK-la.</PackageReleaseNotes>
+    <copyright>Original Copyright: Copyright (c) 2026 ppy Pty Ltd. Original code from: https://github.com/ppy/osu-resources. Modified by SK-la.</copyright>
     <PackageTags>osu game resources</PackageTags>
   </PropertyGroup>
   <ItemGroup>
