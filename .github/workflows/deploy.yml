@@ -77,9 +77,9 @@ jobs:
           if [ "$EXIT" -ne 0 ]; then
             if grep -qi "already exists" "$LOG"; then
               echo "::error::版本 ${{ steps.version.outputs.value }} 已在 nuget.org 上，未上传本次构建。"
-              echo "查看: https://www.nuget.org/packages/la.osu.Game.Resources/${{ steps.version.outputs.value }}"
+              echo "查看: https://www.nuget.org/packages/ez2lazer.Game.Resources/${{ steps.version.outputs.value }}"
               echo "若要发布新内容，请使用新的 tag（例如 2026.524.3-ez2lazer），不要重复推送同一版本。"
             fi
             exit "$EXIT"
           fi
-          echo "Published: https://www.nuget.org/packages/la.osu.Game.Resources/${{ steps.version.outputs.value }}"
+          echo "Published: https://www.nuget.org/packages/ez2lazer.Game.Resources/${{ steps.version.outputs.value }}"
