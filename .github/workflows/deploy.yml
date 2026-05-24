@@ -3,7 +3,14 @@ name: Pack and nuget
 on:
   push:
     tags:
-      - '*'
+      # 仅 Ez2Lazer 发布标签触发，避免 git push --tags 把 ppy 历史标签也推上去后误发布
+      - '*-ez2lazer'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'NuGet 包版本（与 tag 名一致，例如 2026.524.0-ez2lazer）'
+        required: true
+        type: string
 
 permissions:
   contents: read
@@ -15,6 +22,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+
+      - name: Resolve package version
+        id: version
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "value=${{ inputs.version }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=${GITHUB_REF#refs/tags/}" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Set artifacts directory
         id: artifactsPath
