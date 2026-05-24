@@ -1,3 +1,8 @@
+# ez2lazer resources
+Mainly modifying some built-in resources. Here, with the utmost respect, I respect all the original authors of the resources and do my best to add license information.
+These changes are unrelated to the original warehouse authors.
+
+
 # osu!resources
 
 [![dev chat](https://discordapp.com/api/guilds/188630481301012481/widget.png?style=shield)](https://discord.gg/ppy)
