@@ -42,7 +42,7 @@ jobs:
           dotnet-version: "8.0.x"
 
       - name: Pack
-        run: dotnet pack -c Release osu.Game.Resources /p:Version=${{ github.ref_name }} /p:GenerateDocumentationFile=true /p:IncludeSymbols=true /p:SymbolPackageFormat=snupkg -o ${{ steps.artifactsPath.outputs.nuget_artifacts }}
+        run: dotnet pack -c Release osu.Game.Resources /p:Version=${{ steps.version.outputs.value }} /p:GenerateDocumentationFile=true /p:IncludeSymbols=true /p:SymbolPackageFormat=snupkg -o ${{ steps.artifactsPath.outputs.nuget_artifacts }}
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v7
@@ -52,5 +52,16 @@ jobs:
             ${{ steps.artifactsPath.outputs.nuget_artifacts }}/*.nupkg
             ${{ steps.artifactsPath.outputs.nuget_artifacts }}/*.snupkg
 
+      - name: Require NUGET_API_KEY
+        env:
+          NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+        run: |
+          if [ -z "$NUGET_API_KEY" ]; then
+            echo "::error::Secret NUGET_API_KEY 未配置。请在仓库 Settings → Secrets and variables → Actions 中添加。"
+            exit 1
+          fi
+
       - name: Publish packages to nuget.org
-        run: dotnet nuget push ${{ steps.artifactsPath.outputs.nuget_artifacts }}/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
+        env:
+          NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+        run: dotnet nuget push "${{ steps.artifactsPath.outputs.nuget_artifacts }}"/*.nupkg --api-key "$NUGET_API_KEY" --source "https://api.nuget.org/v3/index.json" --skip-duplicate
