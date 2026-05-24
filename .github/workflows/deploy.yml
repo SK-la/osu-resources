@@ -64,4 +64,22 @@ jobs:
       - name: Publish packages to nuget.org
         env:
           NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
-        run: dotnet nuget push "${{ steps.artifactsPath.outputs.nuget_artifacts }}"/*.nupkg --api-key "$NUGET_API_KEY" --source "https://api.nuget.org/v3/index.json" --skip-duplicate
+        run: |
+          set -euo pipefail
+          LOG="${RUNNER_TEMP}/nuget-push.log"
+          set +e
+          dotnet nuget push "${{ steps.artifactsPath.outputs.nuget_artifacts }}"/*.nupkg \
+            --api-key "$NUGET_API_KEY" \
+            --source "https://api.nuget.org/v3/index.json" \
+            2>&1 | tee "$LOG"
+          EXIT=$?
+          set -e
+          if [ "$EXIT" -ne 0 ]; then
+            if grep -qi "already exists" "$LOG"; then
+              echo "::error::版本 ${{ steps.version.outputs.value }} 已在 nuget.org 上，未上传本次构建。"
+              echo "查看: https://www.nuget.org/packages/la.osu.Game.Resources/${{ steps.version.outputs.value }}"
+              echo "若要发布新内容，请使用新的 tag（例如 2026.524.3-ez2lazer），不要重复推送同一版本。"
+            fi
+            exit "$EXIT"
+          fi
+          echo "Published: https://www.nuget.org/packages/la.osu.Game.Resources/${{ steps.version.outputs.value }}"
