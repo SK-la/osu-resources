@@ -1,7 +1,11 @@
 # ez2lazer resources
-Mainly modifying some built-in resources. Here, with the utmost respect, I respect all the original authors of the resources and do my best to add license information.
-These changes are unrelated to the original warehouse authors.
 
+This fork adjusts built-in assets for Ez2Lazer. Third-party works keep their original licences; we add local licence files where needed. These changes are unrelated to the upstream ppy authors.
+
+Ez-added colour emoji fonts:
+
+- **Twemoji Mozilla** (`Fonts/Twemoji/`): [mozilla/twemoji-colr](https://github.com/mozilla/twemoji-colr) v0.7.0. Graphics from [Twemoji](https://github.com/twitter/twemoji) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); packaging code Apache 2.0. See [`LICENSE.txt`](osu.Game.Resources/Fonts/Twemoji/LICENSE.txt).
+- **Noto Color Emoji** (`Fonts/Emoji/NotoColorEmoji-Regular.ttf`): under [OFL](osu.Game.Resources/Fonts/Emoji/OFL.txt).
 
 # osu!resources
 
