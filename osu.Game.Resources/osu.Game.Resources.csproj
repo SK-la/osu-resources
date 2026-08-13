@@ -3,12 +3,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);1591</NoWarn>
-    <Title>osu!resources</Title>
-    <Product>osu!resources</Product>
-    <Company>ppy Pty Ltd</Company>
+    <Title>Ez2LazerResources</Title>
+    <Product>Ez2LazerResources</Product>
+    <Description>Ez2Lazer game resources</Description>
   </PropertyGroup>
   <PropertyGroup Label="Nuget">
-    <Title>osu!resources</Title>
+    <Title>Ez2LazerResources</Title>
     <PackageId>ez2lazer.Game.Resources</PackageId>
     <AssemblyName>osu.Game.Resources</AssemblyName>
     <Authors>ppy Pty Ltd, SK-la</Authors>
